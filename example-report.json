@@ -1,0 +1,33 @@
+{
+  "subnets": [
+    {
+      "cidr": "192.0.2.0/25",
+      "netmask": "255.255.255.128",
+      "first_host": "192.0.2.1",
+      "last_host": "192.0.2.126",
+      "host_count": 126,
+      "last_address": "192.0.2.127",
+      "semantics": "conventional subnet"
+    },
+    {
+      "cidr": "192.0.2.128/26",
+      "netmask": "255.255.255.192",
+      "first_host": "192.0.2.129",
+      "last_host": "192.0.2.190",
+      "host_count": 62,
+      "last_address": "192.0.2.191",
+      "semantics": "conventional subnet"
+    },
+    {
+      "cidr": "192.0.2.192/26",
+      "netmask": "255.255.255.192",
+      "first_host": "192.0.2.193",
+      "last_host": "192.0.2.254",
+      "host_count": 62,
+      "last_address": "192.0.2.255",
+      "semantics": "conventional subnet"
+    }
+  ],
+  "overlaps": [],
+  "status": "NO_OVERLAP_IN_INPUT"
+}
